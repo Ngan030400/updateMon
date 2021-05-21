@@ -1,0 +1,266 @@
+body{
+    font-family: Tahoma ;
+    font-size: 13px;
+    width:900px;
+    height:1000px;
+    margin: 0px auto;
+    background-color: darkkhaki;
+    
+}
+#top{
+    margin-top: 0px;
+    margin-left: 0px;
+    width:900px;
+    height:100px;
+    background-color: aqua;
+    
+}
+ #top #logo{
+    width: 220px;
+    height: 100px;
+    float: left;
+    background-color:firebrick;
+}
+#top #top2{
+    background-image: url("./images/19.jpg");
+    background-size: 650px 200px;
+    width: 680px;
+    height: 100px;
+    float: right;
+    
+}
+#top #top2 #menu{
+    height: 30px;
+    margin-top: 0px;
+    color: firebrick;
+    
+}
+#top #top2 #menu ul{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 0px;
+   
+}
+#top #top2 #menu ul li{
+   
+    list-style: none;
+    float: left;
+}
+#top #top2 #menu ul li a{
+    margin-left: 10px; 
+    text-decoration: none;
+    display: block;
+    height: 30px;
+    color:firebrick;
+    padding: 0px 10px 0px 10px ;
+  
+
+}
+
+#top #top2 #abc{
+    height: 70px;
+    margin-top: 0px;
+    
+}
+#top #top2 #abc #tk{
+    width: 280px;
+    height: 70px;
+    float: right;
+}
+
+
+#top #top2 #abc #tk #timkiem{
+    height: 70px;
+    width: 250px;
+    float: left;
+}
+#top #top2 #abc  #tk #timkiem .box {
+    margin-left: 20px;
+    margin-top: 15px;
+    height: 30px;
+    background-color: darkcyan;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #top #top2 #abc #tk  #timkiem input {
+    background: none;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    width: 0px;
+    transition: 0.8s ease;
+    color: white;
+    font-size: 12px;
+    font-weight: 90px;
+  }
+  #top #top2 #abc #tk  #timkiem input a{
+        color: whitesmoke;
+        text-align: center;
+        width: 50px;
+        font-size: 14px;
+  }
+  #top #top2 #abc #tk  #timkiem .box:hover input {
+    width: 60px;
+    margin: 0 20px;
+    border-bottom: 2px solid red;
+  }
+  #top #top2 #abc #tk  #timkiem input:focus {
+    width: 60px;
+    margin: 0 20px;
+    border-bottom: 2px solid red;
+  }
+  #top #top2 #abc #tk #timkiem input::placeholder {
+    color: antiquewhite;
+  }
+  #top #top2 #abc #tk  #timkiem button{
+    margin-left: 10px;
+    clear: left;
+    width: 60px;
+    height: 20px;
+    background-color: burlywood;
+    color: brown;
+}
+#main{
+    
+    height:300px;
+}
+#main #main1{
+    height: 300px;
+    width: 150px;
+    float: left;
+    font-size: 14px;
+    color: black;
+    background-color: brown;
+}
+
+#main #main1 ul{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 0px;
+    background-color: black;
+   
+}
+#main #main1 ul li{
+    list-style: none;
+    font-size: 12px;
+    border: 2px solid firebrick;
+}
+#main #main1 ul li a{
+  
+    margin-top: 10px;
+    text-decoration: none;
+    display: block;
+    height: 25px;
+    color:firebrick;
+    padding: 0px 10px 0px 10px ;
+  
+
+}
+#main #main2{
+    height: 300px;
+    width: 750px;
+    float: right;
+}
+
+#main #main2 #mon1{
+    height: 300px;
+    width: 550px;
+    float: left;
+    background-color:brown;
+}
+#main #main2 #mon1 li{
+    height: 15px;
+    font-size: 14px;
+    color: indianred;
+    background-color: black;
+    margin: auto;
+}
+#main #main2 #mon1 ul{
+    margin: 0px;
+    padding: 0px; 
+  
+ }
+ #main #main2 #mon1 #mon{
+     width: 255px;
+     height: 280px;
+     float: left;
+ }
+
+ .text{
+     color:black;
+     position: absolute;
+     font-size: 14px;
+ }
+ #main #main2 #mon1  #mon ul li{
+     margin-top: 5px;
+     list-style: none;
+     height: 140px;
+ }
+ #main #main2 #mon1  #mon ul li h1{
+    margin-top: 5px;
+    margin-left: 10px;
+  
+}
+ #main #main2 #mon1  #mon ul li img{
+     width: 240px;
+     height: 120px;
+     margin-left: 5px;
+     margin-top: 5px;
+ }
+ #main #main2 #mon1 #mon12{
+    width: 255px;
+    height: 300px;
+    float: right;
+}
+
+#main #main2 #mon1  #mon12 ul li{
+    margin-top: 5px;
+    list-style: none;
+    height: 140px;
+}
+#main #main2 #mon1  #mon12 ul li h1{
+    margin-top: 5px;
+    margin-left: 10px;
+  
+}
+#main #main2 #mon1  #mon12 ul li img{
+    width: 240px;
+    height: 120px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+#main #main2 #mon2{
+    height: 300px;
+    width: 200px;
+    float: right;
+   
+}
+#main #main2 #mon2 li{
+    color: black;
+    background-color:firebrick;
+}
+#main #main2 #mon2 #new ul li{
+    margin-top: 5px;
+    list-style: none;
+    height: 140px;
+    clear: right;
+}
+#main #main2 #mon2 #new ul li h1{
+    margin-top: 5px;
+    margin-left: 5px;
+  
+}
+
+#main #main2 #mon2 #new ul li img{
+    margin-left: 0px;
+    margin-top: 5px;
+}
+
+#footer{
+    width:900px;
+    height:40px;
+    background-color:firebrick;
+}
